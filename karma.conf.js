@@ -69,7 +69,7 @@ module.exports = function (config) {
         base: 'SauceLabs',
         browserName: 'firefox'
       },
-      sl_safari: {
+      sl_safari_13: {
         base: 'SauceLabs',
         browserName: 'safari',
         platform: 'macOS 10.13',
