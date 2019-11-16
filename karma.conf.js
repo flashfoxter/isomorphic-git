@@ -119,7 +119,8 @@ module.exports = function (config) {
       tags: [ISSUE],
       recordScreenshots: false,
       recordVideo: false,
-      public: 'public restricted'
+      public: 'public restricted',
+      idleTimeout: 4 * 60, // default 90
     },
     concurrency: 5,
     // Continuous Integration mode
@@ -127,11 +128,10 @@ module.exports = function (config) {
     singleRun: true,
     // test results reporter to use
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['browsers', 'verbose', 'longest', 'pr-comment', 'junit'],
+    reporters: ['browsers', 'verbose', 'pr-comment', 'junit'],
     junitReporter: {
       outputDir: './junit'
     },
-    longestSpecsToReport: 50,
     browserify: {
       transform: [
         // Replace process.env.CI
