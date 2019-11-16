@@ -69,24 +69,19 @@ module.exports = function (config) {
         base: 'SauceLabs',
         browserName: 'firefox'
       },
-      sl_edge: {
-        base: 'SauceLabs',
-        browserName: 'MicrosoftEdge',
-        version: '17.17134'
-      },
       sl_safari: {
         base: 'SauceLabs',
         browserName: 'safari',
         platform: 'macOS 10.13',
         version: '11.1'
       },
-      sl_ios_safari: {
+      sl_ios_safari_13: {
         base: 'SauceLabs',
-        deviceName: 'iPhone X Simulator',
+        deviceName: 'iPhone 11 Pro Max Simulator',
         platformName: 'iOS',
-        platformVersion: '11.2',
+        platformVersion: '13.0',
         browserName: 'Safari',
-        appiumVersion: '1.9.1'
+        appiumVersion: '1.15.0'
       },
       sl_ios_safari12: {
         base: 'SauceLabs',
@@ -96,13 +91,13 @@ module.exports = function (config) {
         browserName: 'Safari',
         appiumVersion: '1.9.1'
       },
-      sl_android_chrome: {
+      sl_android_9_chrome: {
         base: 'SauceLabs',
         deviceName: 'Android GoogleAPI Emulator',
         platformName: 'Android',
-        platformVersion: '7.1',
+        platformVersion: '9.0',
         browserName: 'Chrome',
-        appiumVersion: '1.9.1'
+        appiumVersion: '1.13.0'
       },
       FirefoxHeadless: {
         base: 'Firefox',
