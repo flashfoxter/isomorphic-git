@@ -89,7 +89,7 @@ module.exports = function (config) {
         platformName: 'Android',
         platformVersion: '8.1',
         browserName: 'Chrome',
-        appiumVersion: '1.9.1'
+        appiumVersion: '1.11.1'
       },
       FirefoxHeadless: {
         base: 'Firefox',
