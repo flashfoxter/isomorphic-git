@@ -87,9 +87,9 @@ module.exports = function (config) {
         base: 'SauceLabs',
         deviceName: 'Android GoogleAPI Emulator',
         platformName: 'Android',
-        platformVersion: '9.0',
+        platformVersion: '7.1',
         browserName: 'Chrome',
-        appiumVersion: '1.12.1'
+        appiumVersion: '1.9.1'
       },
       FirefoxHeadless: {
         base: 'Firefox',
