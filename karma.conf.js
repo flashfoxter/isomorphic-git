@@ -87,7 +87,7 @@ module.exports = function (config) {
         base: 'SauceLabs',
         deviceName: 'Android GoogleAPI Emulator',
         platformName: 'Android',
-        platformVersion: '7.1',
+        platformVersion: '8.1',
         browserName: 'Chrome',
         appiumVersion: '1.9.1'
       },
