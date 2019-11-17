@@ -73,7 +73,7 @@ module.exports = function (config) {
         base: 'SauceLabs',
         browserName: 'safari',
         platform: 'macOS 10.13',
-        version: '11.1'
+        version: '13.0'
       },
       sl_ios_safari_13: {
         base: 'SauceLabs',
@@ -83,21 +83,13 @@ module.exports = function (config) {
         browserName: 'Safari',
         appiumVersion: '1.15.0'
       },
-      sl_ios_safari12: {
-        base: 'SauceLabs',
-        deviceName: 'iPhone 8 Simulator',
-        platformName: 'iOS',
-        platformVersion: '12.0',
-        browserName: 'Safari',
-        appiumVersion: '1.9.1'
-      },
       sl_android_9_chrome: {
         base: 'SauceLabs',
         deviceName: 'Android GoogleAPI Emulator',
         platformName: 'Android',
         platformVersion: '9.0',
         browserName: 'Chrome',
-        appiumVersion: '1.13.0'
+        appiumVersion: '1.12.1'
       },
       FirefoxHeadless: {
         base: 'Firefox',
