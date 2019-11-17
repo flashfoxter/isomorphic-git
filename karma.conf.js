@@ -120,7 +120,7 @@ module.exports = function (config) {
       recordScreenshots: false,
       recordVideo: false,
       public: 'public restricted',
-      idleTimeout: 4 * 60, // default 90
+      idleTimeout: 4 * 60 // default 90
     },
     concurrency: 5,
     // Continuous Integration mode
